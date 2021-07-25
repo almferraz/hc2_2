@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner_mobile {
+  display: none;
+}
+.banner {
+  width: 100%;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.news,
+.cadastroProdCli {
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+#news h2 {
+  font-size: 22px;
+}
+.news h3,
+.cadastroProdCli h3 {
+  color: #2a303a;
+}
+.cad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: auto;
+  margin: auto;
+}
+.cadastro input {
+  width: 30vw;
+  border: 1px #ccc;
+  border-radius: 5px;
+  background: #ccc;
+}
+.vitrine img {
+  max-width: 250px;
+}
+.vitrine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.produto {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.botao {
+  background: #2a303a;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.news form input {
+  width: 250px;
+  box-shadow: 0 0 0 0;
+  border: 1px solid #ccc;
+  outline: 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.footer {
+  width: 100%;
+  background: #2a303a;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .banner {
+    background-image: url(../img/imgDesafio/banner-blackfriday2.png);
+    background-repeat: no-repeat;
+  }
+  .banner_mobile {
+    display: block;
+  }
+  .banner_desk {
+    display: none;
+  }
+  .vitrine {
+    width: 100%;
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+  }
+}

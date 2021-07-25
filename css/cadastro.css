@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cadastro {
+  width: 60vw;
+  margin: auto;
+  /* background: #ccc; */
+}
+.cad {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.cad input {
+  width: 65%;
+  height: 30px;
+  background: #ccc;
+}
+.botoes {
+  width: 50%;
+}
+.botao {
+  width: 45%;
+  margin: auto;
+}
